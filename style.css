@@ -1,0 +1,27 @@
+
+.flexbox {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+
+.item {
+  display: flex;
+  justify-content: center;
+  width: 33%;
+  outline: red solid 2px;
+}
+
+@media screen and (max-width: 992px) {
+  .item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 562px) {
+  .item {
+    width: 100%;
+  }
+}
